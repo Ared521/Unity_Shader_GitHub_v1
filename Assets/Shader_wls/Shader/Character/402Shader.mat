@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 402Shader
+  m_Shader: {fileID: 4800000, guid: 5856272c12b66ac448d2a6f3aeac9a2f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo_Texture:
+        m_Texture: {fileID: 2800000, guid: 8ee871358ac697b458f792514a17c2cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IBL_Map:
+        m_Texture: {fileID: 8900000, guid: 22f165c71d709614a8595611e1762582, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: bd3564d870c1c3842ba6ec79f3bd9785, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessAndMetalTexture:
+        m_Texture: {fileID: 2800000, guid: 292cdc20d5c1a3244ba010c2113aae30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DiffuseIntensity: 0.75
+    - _IBL_Expose: 2
+    - _LightIntensity: 1
+    - _MetalAdjust: 0
+    - _NormalMapIntensity: 0.01
+    - _RoughnessAdjust: 0
+    - _SH_DiffuseIntensity: 1.5
+    - _Shininess: 64
+    m_Colors:
+    - custom_SHAb: {r: -0.18369691, g: 0.6298625, b: -0.23001225, a: 0.63766843}
+    - custom_SHAg: {r: -0.18374828, g: 0.6300069, b: -0.23028167, a: 0.6351723}
+    - custom_SHAr: {r: -0.18377458, g: 0.6301626, b: -0.2303918, a: 0.63435435}
+    - custom_SHBb: {r: -0.21708162, g: -0.2543253, b: -0.1847112, a: 0.16373423}
+    - custom_SHBg: {r: -0.21728243, g: -0.25458127, b: -0.18503095, a: 0.1639389}
+    - custom_SHBr: {r: -0.21738796, g: -0.25467935, b: -0.18513402, a: 0.1640217}
+    - custom_SHC: {r: -0.19009075, g: -0.18999912, b: -0.18972637, a: 1}
+  m_BuildTextureStacks: []
